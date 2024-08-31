@@ -47,15 +47,14 @@ struct ImmersiveView: View {
                 name: "scale",
                 from: newValue ? zero : one,
                 to: newValue ? one : zero,
-                duration: 0.2,
-                timing: .easeOut,
+                duration: 0.3,
+                timing: newValue ? .easeIn : .easeOut,
                 bindTarget: .transform
             )
             let animation = try! AnimationResource
                 .generate(with: fromTo)
             sphere.playAnimation(
                 animation,
-                transitionDuration: 0.5,
                 startsPaused: false
             )
         }
