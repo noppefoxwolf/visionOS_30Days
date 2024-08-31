@@ -1,5 +1,4 @@
 ||||
 |---|---|---|
-|Day 01 |Low gravity (Using System)| ![](https://github.com/noppefoxwolf/visionOS_30Days/
-blob/main/.github/Day01.gif) |
+|Day 01 |Low gravity (Using System)| ![](https://github.com/noppefoxwolf/visionOS_30Days/blob/main/.github/Day01.gif) |
 |Day 02 |Low gravity (Using PhysicsSimulationComponent)| ![](https://github.com/noppefoxwolf/visionOS_30Days/blob/main/.github/Day02.gif) |
